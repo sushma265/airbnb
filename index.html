@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airbnb Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>airbnb</h2>
+
+        <nav>
+            <a href="#">Stays</a>
+            <a href="#">Experiences</a>
+            <a href="#">Online Experiences</a>
+        </nav>
+
+        <button onclick="loginAlert()">Login</button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find your next stay</h1>
+        <p>Discover beautiful places and unique experiences.</p>
+
+        <button onclick="searchAlert()">Start Searching</button>
+    </section>
+
+
+    <!-- Search Section -->
+    <section class="search">
+        <div>
+            <h3>Location</h3>
+            <p>Where are you going?</p>
+        </div>
+
+        <div>
+            <h3>Check in</h3>
+            <p>Add dates</p>
+        </div>
+
+        <div>
+            <h3>Check out</h3>
+            <p>Add dates</p>
+        </div>
+
+        <div>
+            <h3>Guests</h3>
+            <p>Add guests</p>
+        </div>
+
+        <button onclick="searchAlert()">Search</button>
+    </section>
+
+
+    <!-- Popular Places -->
+    <section class="places">
+        <h2>Popular places to stay</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=500&q=80">
+                <h3>Beautiful Villa</h3>
+                <p>Goa, India</p>
+                <button onclick="bookingAlert()">View Stay</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80">
+                <h3>Luxury Home</h3>
+                <p>Hyderabad, India</p>
+                <button onclick="bookingAlert()">View Stay</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=500&q=80">
+                <h3>Modern Apartment</h3>
+                <p>Bengaluru, India</p>
+                <button onclick="bookingAlert()">View Stay</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Airbnb Landing Page</p>
+        <button onclick="contactAlert()">Contact Us</button>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
